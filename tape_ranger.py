@@ -17,17 +17,23 @@ Tape ranger is a simple
 
         #def copy anime(self.dir_list, sorted_dir) -> 'list':
             # Copy anime to sorted dir
+            # check md5 and add to DB with db_inspector
             # Del unsorted files and folders
             # Clean self.dir_list 
 
 
 # Utilite copy date to tape 
+    # def copy_on_tape(anime__list):
+        # see files/folders in sort_dir
+        # Check tape -- tape name, free size if size < 20 Gb -- load new tape
+        # Check files/folders with db_insperctor
+        # Check file size and free size
+        # write on tape
+        # Add in DB with db_inspector
 
 # Utilite with DB -- db_inspector.py
-
-# JSON db store in catalog /date
-
-# Utilite check that user made 2 copy 
+    # DB store in catalog /date
+    # Utilite check that user made 2 copy 
 
 # Utilite have a MD5 sum of original files -- md5_inspector.py
 
